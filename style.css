@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 5px;
+}
+
+#home { 
+    background: linear-gradient(rgba(44,40,40, 0.5), rgba(48, 42, 42, 0.5)), url(./imagens/mar.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+}
+
+#home main {
+    display: flex;
+    height: 8vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vw;
+    
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu ul {
+    list-style: none;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    border: 2px solid rgba(30, 44, 27, 0.6);
+    margin: 3px;
+    padding: 5px 20px;
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    border-radius: 8px;
+    background-color: rgba(11, 10, 10, 0.574); 
+    color: rgb(244, 240, 240);
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+.menu ul li a:hover{
+    background-color: rgba(240, 240, 240, 0.348);
+    color: white;
+    border: 1px solid black;
+}
+
+.menu ul li a.link-ativo{
+    background-color: rgba(240, 240, 240, 0.348);
+    color: black;
+    border: 1px solid black;
+}
+
+
+header img{
+    margin-left: 5vw;
+}
+
+.menu{
+    margin-right: 10vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    color: rgb(70, 71, 87);
+    font-size: 8vw;
+    font-family: 'Croissant One', cursive;
+    
+}
